@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://media2.giphy.com/media/g9582DNuQppxC/giphy.gif');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+
+#catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singleFilm{
+    display: flex;
+    flex-direction: column;
+}
+  
+#catalogo img{
+    margin: 10px;
+    width: 182px;
+    height: 268px;
+}
+
+.singleFilm span{
+    color: white;
+    text-transform: capitalize;
+}
+
+.operacao{
+  color: white;
+  position: relative;
+}
+
+.close {
+  cursor: pointer;
+  top: 45%;
+  padding: 3px 9px;
+  margin-left: 5px;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {background: #bbb;}
+
+.btnGroup{
+  margin: 15px;
+}
+
+.btnGroup button{
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff6d00;
+  color: #fff;
+}
+
+.btnGroup button:hover{
+  background-color: #d00000;
+  cursor: pointer;
+}
+.hahaha{
+
+            color: #3f3;
+            animation-duration: 8s;
+            animation-name:cor_fonte;
+            animation-iteration-count: infinite;  
+        }
+        a{
+            font-size: 20px;
+            text-align:center ;
+            font-family: 'New Tegomin', serif;
+            animation-duration: 2s;
+            animation-name:brilho;
+            animation-iteration-count: infinite;
+            text-decoration: none;
+            color: white;
+        }
+        .imge{
+            width: 20px;
+            height: 20px;
+        }
+        @keyframes cor_fonte{  
+            0, 100%{color: #0ff}
+            25%{color: #f0f}
+            50%{color:#06f}
+            75%{color:#fff}
+        }
+        @keyframes brilho{
+            50%{text-shadow: 0px 0px 9px}
+            
+        }
+        .pp{ 
+            font-size: 20px;
+            font-family: 'New Tegomin', serif;
+        }
